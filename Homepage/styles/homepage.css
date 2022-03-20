@@ -1,0 +1,152 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+html {
+	background-color:#246f8aec;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	margin: 16px 32px;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+  width: 130px;
+}
+
+.headerMenu{
+	font-size: 18px;
+	font-weight: normal;
+  transition: .4s linear;
+}
+
+.headerMenu:hover {
+	font-size: 22px;
+}
+
+header{
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	margin-bottom: 30px;
+}
+
+.headerIcon {
+	margin-right: 5px;
+}
+
+main {
+	background-image: linear-gradient(to bottom right, rgba(129, 158, 175, 1), rgba(24, 51, 54, .1));
+}
+
+.bannerWrapper{
+	position: relative;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+	max-width: 1382px;
+	margin-bottom: 30px;
+	transition: .4s linear;
+}
+
+.banner:hover{
+	transform: scale(1.2);
+}
+
+.bannerLink {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	display: block;
+}
+
+.bannerImage {
+	width: 900px;
+	height: 100%;
+}
+
+.bannerContentWrapper{
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+}
+
+.banner h2{
+  font-size: 40px;
+	padding-bottom: 12px;
+}
+.banner p{
+  font-size: 20px;
+}
+.banner span{
+  color: rgb(219, 68, 68);
+}
+
+
+.categories{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1382px;
+	gap: 16px;
+	margin: 30px 0;
+}
+
+fieldset{
+	border-radius: 10%;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: rgb(167, 167, 168);
+	transition: .4s linear;
+}
+
+fieldset:hover{
+	border: none;
+	transform: scale(1.2);
+}
+
+footer{
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	padding: 16px;
+}
+
+.footerList {
+	width: 200px;
+	text-align: end;
+	margin-bottom: 10px;
+}
+
+.footerIcon {
+	padding-left: 10px;
+}
+
+.footerContent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyRight{
+	margin-top: 30px;
+	text-align: center;
+}

@@ -1,0 +1,88 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+html {
+	background-color:#246f8aec;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	margin: 16px 32px;
+
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+  width: 130px;
+}
+
+.headerMenu{
+	font-size: 18px;
+	font-weight: normal;
+	transition: .4s linear;
+}
+
+.headerMenu:hover {
+	font-size: 22px;
+}
+
+header{
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	margin-bottom: 30px;
+}
+
+.headerIcon {
+	margin-right: 5px;
+}
+
+main {
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+}
+
+main h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+footer{
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	padding: 16px;
+}
+
+.footerList {
+	width: 200px;
+	text-align: end;
+	margin-bottom: 10px;
+}
+
+.footerIcon {
+	padding-left: 10px;
+}
+
+.footerContent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyRight{
+	margin-top: 30px;
+	text-align: center;
+}

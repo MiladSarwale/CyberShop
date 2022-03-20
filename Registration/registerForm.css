@@ -1,0 +1,193 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+html {
+	background-color:#246f8aec;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	margin: 16px 32px;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+  width: 130px;
+}
+
+.headerMenu{
+	font-size: 18px;
+	font-weight: normal;
+	transition: .4s linear;
+}
+
+.headerMenu:hover {
+	font-size: 22px;
+}
+
+.headerIcon {
+	margin-right: 5px;
+}
+
+header{
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	margin-bottom: 30px;
+}
+
+article{
+	height: 100px;
+	display: block;
+	text-align: center;
+	font-size: 60px;
+	padding: 10px;
+}
+
+main {
+	background-image: linear-gradient(to bottom right, rgba(129, 158, 175, 1), rgba(24, 51, 54, .1));
+}
+
+.inputPlaceholder::placeholder{
+	text-align: end;
+	font-size: 20px;
+
+}
+
+.inputPlaceholder{
+	font-size: 20px;
+	padding: 10px;
+
+}
+
+#mobile::placeholder{
+	font-size: 20px;
+    text-align: start;
+}
+
+#mobile{
+	text-align: end;
+	font-size: 20px;
+	padding: 10px;
+
+}
+
+label{
+	font-size: 30px;
+}
+
+body{
+	position: relative;
+	max-width: 1000px;
+	margin-right: 20px;
+}
+
+
+
+
+fieldset{
+	display: inline-block;
+	width: 900px;
+	text-align: end;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+
+form{
+  padding: 30px;
+}
+
+.containar{
+	display: inline-block;
+	width: 100%;
+	text-align: end;
+}
+
+select{
+	padding: 10px;
+	width: 600px;
+	font-size: 25px;
+}
+
+.reset{
+	padding: 20px;
+	border-radius: 5%;
+	font-size: 20px;
+	color: white;
+	background-color: purple;
+	margin:10px;
+	width: 150px;
+}
+
+.reset:hover{
+	background-color: red;
+	font-weight: 700;
+}
+
+.submit{
+	padding: 20px;
+	border-radius: 5%;
+	font-size: 20px;
+	color: white;
+	background-color: blue;
+	width: 150px;
+
+}
+
+.submit:hover{
+	background-color: green;
+	font-weight: 700;
+
+}
+
+#photo{
+	font-size: 20px;
+	padding: 30px;
+
+}
+
+legend{
+	font-size: 40px;
+}
+
+footer{
+	background-image: linear-gradient(to bottom right, rgba(129, 173, 197, 1), rgba(9, 110, 59, .1));
+	padding: 16px;
+}
+
+.footerList {
+	width: 200px;
+	text-align: end;
+	margin-bottom: 10px;
+}
+
+.footerIcon {
+	padding-left: 10px;
+}
+
+.footerContent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyRight{
+	margin-top: 30px;
+	text-align: center;
+}
